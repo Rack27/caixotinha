@@ -80,18 +80,43 @@ section h2#roxo {
     width: 280px;
     padding-left: 20px;
     border-radius: 5px;
-    border: 1px solid #707070
+    border: 1px solid #707070;
 }
 .calculadora input[type=button] {
     height: 36px;
     width: 302px;
-    border-radius: 5px;
     background-color: #AA0AFF;
     color: #FFFFFF;
-    border: none;
+    border-style: solid;
 }
 .contato {
-    border: 1px solid red;
-    display: flexbox;
-    justify-content: right;
+    /* border: 1px solid red; */
+    /* display: flexbox; */
+    /* justify-content: right; */
+    float: right;
+    margin-top: 270px;
+    margin-right: 100px;
+    
+}
+.contato input {
+    margin-bottom: 19px;
+    height: 32px;
+    width: 280px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: #AA0AFF;
+    color: white;
+    border-style: solid;
+}
+.contato input[type=button] {
+    height: 36px;
+    width: 302px;
+    background-color: #FFFFFF;
+    color: #AA0AFF;
+}
+.contato input[placeholder=Mensagem] {
+    height: 150px;
+}
+.contato ::-webkit-input-placeholder {
+    color: #FFFFFF;
 }
